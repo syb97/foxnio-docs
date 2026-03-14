@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/foxnio-docs/',
   lang: 'zh-CN',
   title: 'FOXNIO 使用文档',
   description: 'FOXNIO API 中转服务站使用指南',
